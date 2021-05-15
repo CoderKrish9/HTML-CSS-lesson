@@ -5,10 +5,18 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Component Library</title>
+      <!-- Step one- add style tag<style>
+            body{
+                  color:rgb(255, 0, 0);
+            }
+      </style> -->
+      <!-- Third way of doing CSS -->
+      <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-      <h1> Welcome to Krishna Ghoman's Component Library</h1>
-      <p>I am attending neg.camp and I want to create a library which would makeall my
+      <h1 id="lib-header" > Welcome to Krishna Ghoman's Component Library</h1>
+      <!-- style="color:red" -->
+      <p class="para">I am attending neg.camp and I want to create a library which would makeall my
        projects look good and consistent. </p>
        <hr>
 
@@ -18,12 +26,12 @@
        <h2>This is the second largest</h2>
        <p>Let me show you the normal text. This is free flowing and will wrap at the end like 
              a paragraph.
-       </p>
+      <strong>bold</strong> text</p>
 
 
        <h2>@Container</h2>
        <h3>Fluid container</h3>
-       <div>This is a fluid container and will go till the end of the page</div>
+       <div class="container-fluid">This is a fluid container and will go till the end of the page</div>
 
        <h3>@center container</h3>
        <div>This is a centered container and it will go till the specified width</div>
